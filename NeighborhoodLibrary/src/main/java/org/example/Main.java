@@ -2,6 +2,12 @@ package org.example;
 
 import java.util.Scanner;
 
+
+/*
+So you had a good start with the book class but I'm not seeing a ton of logic in the main class
+You probably want to start off by creating an array of books and then using while loops and switch
+statements to collect user info. Let me know when you think you can get this done.
+ */
 public class Main {
     public static void main(String[] args) {
 
