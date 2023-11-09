@@ -6,6 +6,7 @@ public class Book {
     private String isbn;
     private String title;
     private boolean isCheckedOut;
+    //the c should be lower case
     private String CheckedOutTo;
 
     public Book(int id, String isbn, String title, boolean isCheckedOut, String checkedOutTo) {
@@ -14,6 +15,15 @@ public class Book {
         this.title = title;
         this.isCheckedOut = isCheckedOut;
         CheckedOutTo = checkedOutTo;
+    }
+
+    //This is another way to write the constructor so you don't have to type false and "" a bunch of times
+    public Book(int id, String isbn, String title){
+        this.id = id;
+        this.isbn = isbn;
+        this.title = title;
+        this.isCheckedOut = false;
+        this.CheckedOutTo = "";
     }
 
     public int getId() {
