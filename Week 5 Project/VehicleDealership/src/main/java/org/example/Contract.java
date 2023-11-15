@@ -44,11 +44,18 @@ public class Contract {
     public void setVehicleSold(Vehicle vehicleSold) {
         this.vehicleSold = vehicleSold;
     }
-    double getTotalPrice(){
-        return getTotalPrice();
 
+    public double getTotalPrice() {
+        return 0;
     }
-    double  getMonthlyPayment(){
-        return getMonthlyPayment();
+
+    public double getMonthlyPayment() {
+        return 0;
     }
+
 }
+
+
+
+
+
